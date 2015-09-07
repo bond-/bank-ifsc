@@ -5,6 +5,7 @@
 .DS_Store
 /build
 /captures
+gradle/wrapper/*.jar
 
 *.class
 # Mobile Tools for Java (J2ME)
