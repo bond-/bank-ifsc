@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bank IFSC codes</string>
+    <string name="action_settings">Settings</string>
+    <string name="locationLabelText">City</string>
+    <string name="bankLabelText">Bank Name</string>
+    <string name="searchLabelText">Search</string>
+    <string name="title_activity_results">ResultsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
