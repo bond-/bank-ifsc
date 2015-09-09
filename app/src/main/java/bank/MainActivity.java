@@ -1,5 +1,6 @@
 package bank;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView location = (TextView) findViewById(R.id.location);
                 Log.e("bank",bankName.getText().toString());
                 Log.e("bank",location.getText().toString());
+                Intent i = new Intent(MainActivity.this, ResultsActivity.class);
+                startActivity(i);
             }
         });
     }
